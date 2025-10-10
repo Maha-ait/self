@@ -1,0 +1,47 @@
+class TaskManager(object):
+
+    def __init__(self, tasks):
+      self.userId
+      self.taskId[50]
+      self.priority[50]
+    def add(self, userId, taskId, priority):
+        u=int(input("Enter your UserId"))
+        if userId=u:
+            ta=int(input("Enter your task"))
+            if ta not in taskId:
+                taskId.append(ta)
+                pr=int(input("enter the priority of the task given"))
+                priority.append(pr)
+            taskId.sort()
+            priority.sort()
+     def edit(self, taskId, newPriority):
+        ta = int(input("Enter the taskId"))
+        if ta in taskId:
+            for i in range(i=0,len(taskId),i++):
+                if ta==i:
+                    newp=int(input("enter new priority"))
+                    priority[i]=newp
+                    break
+    def rmv(self, taskId):
+       ta=int(input("Enter the taskId"))
+        if ta in taskId:
+            for i in range (i=0,len(taskId),i++):
+                if i==ta:
+                    del taskId(i)
+    def execTop(self):
+       c=min(priority)
+       num=priority.count(c)
+       if num==1:
+            print("Executing task")
+            print(taskId[1])
+        else:
+            f=0
+            d=taskId[1]
+            for i in range(i=0,len(taskId),i++):
+                if c==num:
+                    if taskId[i]>d:
+                        d=taskid[i]
+obj = TaskManager(wake )
+obj.add(userId,taskId,priority)
+obj.edit(taskId,newPriority)
+obj.rmv(taskId)

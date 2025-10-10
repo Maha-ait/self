@@ -1,0 +1,15 @@
+let x=true;
+let y=x&&=10;
+console.log(y);
+ x=false;
+ y=x&&=10;
+console.log(y);
+ x=1;
+ y=x&&=10;
+console.log(y);
+ x=0;
+ y=x&&=10;
+console.log(y);
+ x=undefined;
+ y=x&&=10;
+console.log(y);

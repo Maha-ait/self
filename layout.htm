@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>
+            Website Layouts
+        </title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            .header{
+                background-color: green;
+                padding:15px;
+                text-align:center;
+                color:white;
+            }
+            .nav_menu{
+                overflow:hidden;
+                background-color: rgb(23, 22, 22);
+            }
+            .nav_menu a{
+                float:left;
+                display:block;
+                color:white;
+                text-align:center;
+                padding:14px 16px;
+                text-decoration:none;
+            }
+            .nav_menu a:hover{
+                background-color: white;
+                color:green;
+            }
+            .coloumnA,.coloumnB,.coloumnC{
+                float:left;
+                width:31%;
+                padding:15px;
+                text-align: justify;
+            }
+            @media screen and (max-width:600px){
+                .coloumnA,.coloumnB,.coloumnC{
+                    width:50%;
+                }
+            }
+            @media screen and (max-width:400px){
+                .coloumnA,.coloumnB,.coloumnC{
+                    width:100%;
+                }
+            }
+            h2{
+                color:green;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class=header>
+            <h2>GeeksforGeeks</h2>
+        </div>
+        </br>
+        <div class="nav_menu">
+            <a href="#">Algo</a>
+            <a href="#"> DS</a>
+            <a href="#">Language</a>
+        </div>
+        <div class="row">
+          <div class="coloumnA">
+            <h2>Coloumn A</h2>
+            <p> Prepare for the Recruitment drive of product
+                based companies like Microsoft, Amazon, Adobe
+                etc with a free online placement preparation
+                course. The course focuses on various MCQ's
+                & Coding question likely to be asked in the
+                interviews & make your upcoming placement
+                season efficient and sucessful
+            </p>
+           </div>
+           <div class="coloumnB">
+            <h2>Coloumn B</h2>
+            <p>Prepare for the Recruitment drive of product
+               based companies like Microsoft, Amazon, Adobe
+               etc with a free online placement preparation
+               course. The course focuses on various MCQ's
+               & Coding question likely to be asked in the
+               interviews & make your upcoming placement
+               season efficient and successful.
+            </p>
+           </div>
+           <div class="coloumnC">
+            <h2>Coloumn C</h2>
+            <p>Prepare for the Recruitment drive of product
+               based companies like Microsoft, Amazon, Adobe
+               etc with a free online placement preparation
+               course. The course focuses on various MCQ's
+               & Coding question likely to be asked in the
+               interviews & make your upcoming placement
+               season efficient and successful.
+            </p>
+           </div>
+        </div>
+        <center style ="font-size:200%">
+            Remaining Section
+        </center>
+    </body>
+</html>
+

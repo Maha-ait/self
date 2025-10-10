@@ -1,0 +1,24 @@
+class FoodRatings(object):
+
+    def __init__(self, foods, cuisines, ratings):
+        self.foodl=["kimchi","miso","sushi","moussaka","ramen","bulgogi"]
+        self.cuisinel=["japanese","japanese","greek","japanese","korean"]
+        self.ratingl=[9, 12, 8, 15, 14, 7]
+            if foods in self.foodl:
+
+    def changeRating(self):
+        getfood=int(input("Enter the dish no to change rating"))
+        newRating=int(input("Enter a new rating"))
+        for i in range(i,len(foodl),i++):
+            if(i==self.getfood):
+                self.ratingl[i]=newRating
+                break
+    def highestRated(self,cuisine):
+        high=1
+        self.cuisine=str(input("Enter the cuisine to get the best:"))
+        for i in range(i,len(food),i++):
+          if cuisine==self.cuisinel[i]:
+            if self.ratingl[i]>high:
+                high=self.ratingl
+        print("Food with highest rating is:",high)
+obj=FoodRatings(foods)

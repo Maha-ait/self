@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <style type="text/css" media=all>
+            h4{
+                color:white;
+                background-color: black;
+                text-align: left;
+            }
+            .e1{
+                float:left;
+                width:5%;
+            }
+            .e2{
+                float:left;
+                width:70%;
+            }
+            .p1{
+                float:left;
+                width:5%
+            }
+            .p2{
+                float:left;
+                width:70%;
+            }
+            .m1{
+                float:left;
+                width:70%;
+            }
+            .m2{
+                float:left;
+                width:30%;
+            }
+            .coloumnA{
+                float:left;
+                width:50%;
+                padding:15px;
+            }
+            .coloumnB{
+                float:left;
+                width:40%;
+                padding:15px;
+                text-align: justify;
+            }
+            @media screen and (max-width:600px){
+                .coloumnA,.coloumnB{
+                width:50%;}
+            }
+            @media screen and (max-width:400px){
+                .coloumnA,.coloumnB{
+                    width:50%;
+                }
+                
+            }
+            .box{
+                box-sizing: border-box;
+            }
+        </style>
+    </head>
+    <body>
+        <p><img src=logo.jpg width=5px height=5px/><h4>Ghostlamp</h4>
+        <div class="row">
+            <div class="coloumnA">
+                <img src="ghost.png" width="70%" height="50%"/>
+            </div>
+            <div class="coloumnB">
+                <h2>Welcome Back :)</h2>
+                <br/>
+                <p>To keep connected with us please login with your personal
+                information by email address and password</p>
+                <form action="http://www.example.com">
+                    <div class="row">
+                        Email Address<br/>
+                        <div class="e1">
+                            <img src="email1.jpg" height="30px" width="30px" alt="email"/>
+                        </div>
+                        <div class="e2">
+                            <input type="email" value="email" required="required" >   
+                        </div> 
+                    </div> 
+                    <br/> 
+                    <br/>
+                    Password<br/>         
+                    <div class="password">
+                        <div class="p1">
+                            <img src="password1.jpg" height="20px" width="30px" alt="password"/>
+                        </div>
+                        <div class="p2">
+                            <input type="password" value="password" required="required" >   
+                        </div> 
+                    </div>
+                    <br/>
+                    <br/>
+                    <div class="maha">
+                        <div class=m1>
+                            <input type="radio" value="Remember me"> Remember me
+                            </div>
+                        <div class="m2">
+                             <a href="www.example.com">Forget Password?</a>
+                        </div>
+                    </div>
+                    <br/><br/><br/>
+                    <input type="submit" value="Login Now "/>
+                    <input type="button" value="Create account"> 
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
